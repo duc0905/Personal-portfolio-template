@@ -1,0 +1,34 @@
+.container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    text-align: center;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+}
+
+.message {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.homeLink {
+    font-weight: 600;
+    color: var(--color-primary);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.homeLink:hover {
+    color: var(--color-primary-light);
+}

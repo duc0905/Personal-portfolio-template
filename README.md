@@ -1,49 +1,77 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal TypeScript Starter
-</h1>
+# Personal Portfolio Website template
 
-## 🚀 Quick start
+This is a minimal personal website template built with **GatsbyJS**, **TypeScript**, and **CSS Modules**. It features a light/dark theme toggle, responsive design, and clean navigation to showcase your profile, projects, and contact information.
 
-1.  **Create a Gatsby site.**
+## 🚀 Features
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+- ⚡️ **GatsbyJS** for fast static site generation
+- 💡 **Light/Dark theme toggle** using CSS variables
+- 🎨 **CSS Modules** for scoped and maintainable styles
+- ✅ **TypeScript** for type safety
+- 🖥️ Minimal, responsive design
+- 📁 Modular and clean project structure
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby -- -ts
-    ```
+## 🛠️ Getting Started
 
-2.  **Start developing.**
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/portfolio-website.git
+cd portfolio-website
+```
+### 2. Install Dependencies
+```bash
+npm install
+# or
+yarn install
+```
 
-    Navigate into your new site’s directory and start it up.
+### 3. Start Development Server
+```bash
+npm run develop
+# or
+yarn develop
+```
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Visit http://localhost:8000 to view your website.
 
-3.  **Open the code and start customizing!**
+## ✨ Customization
 
-    Your site is now running at http://localhost:8000!
+Change theme colors in theme.module.css
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+Update content in pages/
 
-4.  **Learn more**
+Adjust layout and navigation in Layout.tsx
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+Add assets like images in an images/ directory
 
-## 🚀 Quick start (Netlify)
+## 🏗️ Build for Production
+```bash
+npm run build
+# or
+yarn build
+```
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+## 📄 License
+Licensed under the MIT License.
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+MIT License
+
+Copyright (c) 2025 Duc Le
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell   
+copies of the Software, and to permit persons to whom the Software is   
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in  
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR   
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE   
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER   
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,   
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE   
+SOFTWARE.
